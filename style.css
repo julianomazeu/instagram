@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,, 243, 243);
+    background-color: rgb(242, 243, 243);
     margin: 0;
     padding: 0;
     display: flex;
@@ -54,6 +54,7 @@ body {
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    border-radius: 1%;
 }
 
 .group:nth-child(1) {
@@ -70,6 +71,7 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: 2px 2px #888888;
 }
 
 .profile-photo img{
